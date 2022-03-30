@@ -1,0 +1,9 @@
+
+
+int migratoryBirds(vector<int> arr) {
+   sort(arr.begin(),arr.end());
+   int n=arr.size();
+   int result=arr[n/2];
+  return result;
+  
+}
